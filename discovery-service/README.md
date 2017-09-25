@@ -10,7 +10,7 @@ Include the BOMs and then Bootique Consul discovery service
                 <dependency>
                     <groupId>io.bootique.bom</groupId>
                     <artifactId>bootique-bom</artifactId>
-                    <version>0.19</version>
+                    <version>0.23</version>
                     <type>pom</type>
                     <scope>import</scope>
                 </dependency>
@@ -58,4 +58,4 @@ Now you can inject `com.cognitree.bootique.discovery.consul.ConsulDiscoveryServi
 final List<Service> test = consulDiscoveryService.getServiceInstances("test");
 ```
 
-Refer [ConsulDiscoveryService](src/main/java/com/cognitree/bootique/discovery/consul/ConsulDiscoveryService.java) for available API to query and register services. For sample refer [ConsulDiscoveryServiceTest](src/test/java/com/cognitree/discovery/consul/ConsulDiscoveryServiceTest.java)
+Refer [ConsulDiscoveryService](src/main/java/com/cognitree/bootique/discovery/consul/ConsulDiscoveryService.java) for available API to query and register services. For sample refer [ConsulDiscoveryServiceTest](src/test/java/com/cognitree/bootique/discovery/consul/ConsulDiscoveryServiceTest.java)
