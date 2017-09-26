@@ -1,0 +1,3 @@
+discovery:
+  agentUrl: http://localhost:8500
+  watchWaitTimeout: 30
